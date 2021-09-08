@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/service/src/main/java/partie7/service/ConfigurationService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/partie7/webflux/Configuration_webflux.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/webFlux/src/main/java/partie7/webflux/ConfigurationWebFlux.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/webFlux/src/main/java/partie7/webflux/ConfigurationWebFlux.java" charset="windows-1252" />
+  </component>
+</project>
