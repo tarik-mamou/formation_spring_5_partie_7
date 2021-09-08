@@ -9,6 +9,7 @@
         <module name="webFlux" />
         <module name="persistence" />
         <module name="reactive_client" />
+        <module name="recative_web_client" />
         <module name="application" />
         <module name="service" />
       </profile>

@@ -14,6 +14,7 @@
         <module>persistence</module>
         <module>webFlux</module>
         <module>reactive_client</module>
+        <module>recative_web_client</module>
     </modules>
 
     <properties>
