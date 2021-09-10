@@ -1,10 +1,11 @@
 package partie7.webflux.controller;
 
-import io.netty.handler.codec.http.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import partie7.persistence.entities.Livre;
 import partie7.service.LivreService;
 import reactor.core.publisher.Mono;
@@ -18,8 +19,8 @@ public class LivreController {
     @GetMapping("/livres")
     public ResponseEntity<Mono<Livre>> rechercherParNom(@RequestParam String nomLivre) {
 
-        Mono<Livre> livre=livreService.rechercherLivre(nomLivre);
+        Mono<Livre> livre = livreService.rechercherLivre(nomLivre);
         ResponseEntity<Mono<Livre> > monoResponseEntity=new ResponseEntity<>(livre, HttpStatus.OK);
-       return monoResponseEntity;
+        return monoResponseEntity;
     }
 }
